@@ -1,0 +1,6 @@
+<h2>Disciplines</h2>
+<ol>
+  <li *ngFor="let discipline of disciplines">
+    {{discipline.title}} --- <button (click)="deleteDiscipline(discipline)">Delete</button>
+  </li>
+</ol>

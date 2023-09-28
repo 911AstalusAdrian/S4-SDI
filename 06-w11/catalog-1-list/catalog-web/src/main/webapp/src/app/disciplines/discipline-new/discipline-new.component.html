@@ -1,0 +1,9 @@
+<h2>Add Discipline</h2>
+
+<div>
+  <label>Title: <input #title></label><br/>
+  <label>Teacher: <input #teacher></label><br/>
+  <label>Credits: <input #credits></label><br/><br/>
+
+  <button (click)="saveDiscipline(title.value,teacher.value,credits.value)">Save</button>
+</div>
